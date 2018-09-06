@@ -1,14 +1,15 @@
 # encoding:utf-8
 __author__ = 'admin'
 
+"""
 import oss2
 import logging
 class OSS2(object):
 
     def __init__(self, LTAIuJAfudGzFrU4, access6L2v49OcxloZ4mjGrx9T14Kk98VHBIkeysecret,oss-cn-beijing.aliyuncs.com, test-lengxuesong, logger=None):
-        self.accessid = accesskeyid
-        self.accesskey = accesskeysecret
-        self.endpoint = endpoint
+        self.accessid = "LTAIuJAfudGzFrU4"
+        self.accesskey = "6L2v49OcxloZ4mjGrx9T14Kk98VHBI"
+        self.endpoint = "oss-cn-beijing.aliyuncs.com"
         self.bucketstring = bucket
         self.logger = logger
         self.connection()
@@ -75,6 +76,6 @@ if '__name__' == '__main__':
     oss = OSS2(accesskeyid = '', accesskeysecret = '', endpoint= 'http://oss-cn-hangzhou.aliyuncs.com', bucket= '',logger=logger)
     oss.uploadFiles()
     oss.deleteFiles()
-
+"""
 
 
